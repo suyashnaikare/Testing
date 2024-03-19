@@ -15,7 +15,7 @@ for (butt of buttons) {
   });
 }
 
-body.addEventListener("keydown", function () {
+body.addEventListener("dblclick", function () {
   if (!is_started) {
     is_started = true;
     levelup();
