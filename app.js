@@ -15,7 +15,7 @@ for (butt of buttons) {
   });
 }
 
-body.addEventListener("click", function () {
+body.addEventListener("dblclick", function () {
   if (!is_started) {
     is_started = true;
     levelup();
@@ -54,7 +54,7 @@ function check(ind) {
       setTimeout(levelup, 1000);
     }
   } else {
-    h3.innerHTML = `<b>Game over please start Again</b><br>Score is ${level}<br>Press any key to Start again`;
+    h3.innerHTML = `<b>Game over please start Again</b><br>Score is ${level}<br>double click to Start again`;
     reset();
   }
 }
