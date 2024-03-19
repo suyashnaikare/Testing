@@ -15,7 +15,7 @@ for (butt of buttons) {
   });
 }
 
-body.addEventListener("dblclick", function () {
+body.addEventListener("click", function () {
   if (!is_started) {
     is_started = true;
     levelup();
